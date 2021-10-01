@@ -77,7 +77,7 @@ export default {
         'Contáctenos':'contactenos',
       },
        icons: {
-        'mdi-whatsapp':'https://api.whatsapp.com/send?phone=+573153925252&text=%C2%A1Bienvenido%20a%20React%C3%ADvate!%20%C2%BFCu%C3%A9ntanos%20como%20podemos%20ayudarte?',
+        'mdi-whatsapp':'https://api.whatsapp.com/send?phone=+579999999999&text=%C2%A1Bienvenido%20a%20React%C3%ADvate!%20%C2%BFCu%C3%A9ntanos%20como%20podemos%20ayudarte?',
         'mdi-mail': 'mailto:re-activateco@outlook.com',
         'mdi-linkedin':'https://www.linkedin.com/company/re-activateco',
         'mdi-instagram':'https://www.instagram.com/re_activateco/',

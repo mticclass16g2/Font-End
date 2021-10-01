@@ -21,7 +21,7 @@
    <v-col
     cols="3"   
    >
-     <p>Contar con perfil profesional para tu empresa</p>
+     <p>Contar con un perfil profesional para tu negocio</p>
    </v-col>
    <v-col
     align="center"
@@ -37,7 +37,7 @@
    <v-col
    cols="3"   
    >
-     <p>Aplicar a oferta de Trabajos Disponibles</p>
+     <p>Aplicar a ofertas de trabajos disponibles</p>
    </v-col>   
  </v-row>
   <v-row>
@@ -55,7 +55,7 @@
    <v-col
    cols="3" 
    >
-     <p>Maximizar tu presencia y reputación en línea</p>
+     <p>Aumentar tu presencia y reputación en línea</p>
    </v-col>
    <v-col
     align="center"
@@ -71,7 +71,7 @@
    <v-col
    Cols="3"
    >
-     <p>Optimiza la visivilidad de tu negocio en línea</p>
+     <p>Optimizar la visibilidad de tu negocio en línea</p>
    </v-col>
  </v-row>
  <v-row class="my-20"></v-row>
@@ -112,7 +112,7 @@
    <v-col
    cols="3"   
    >
-     <h3>síguenos</h3>
+     <h3>Encuéntranos en</h3>
    </v-col>   
  </v-row>
   <v-row>
@@ -146,7 +146,7 @@
    <v-col
    Cols="3"
    >
-     <h3>síguenos</h3>
+     <h3></h3>
    </v-col>
  </v-row>
  <v-row class="my-20"></v-row>
@@ -158,8 +158,6 @@
   import HelloWorld from '../components/HelloWorld'
   import ServiciosComp from '../components/ServiciosComp'
 
-
-
   export default {
     name: 'Home',
 
@@ -169,9 +167,9 @@
     },
   }
 </script>
+
 <style scoped>
 p {
-
   text-align:center;
 }
 </style>
