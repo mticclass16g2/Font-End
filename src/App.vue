@@ -1,11 +1,9 @@
 <template>
   <v-app>
-  <v-toolbar
-    color=#364c63
-    dense
-    max-height="50"
-  >
-  <v-app-bar-nav-icon to="/"></v-app-bar-nav-icon>
+
+  <v-toolbar color=#364c63 dense max-height="50">
+  <v-app-bar-nav-icon to="/">
+  </v-app-bar-nav-icon>
   <v-toolbar-title class="white--text">Inicio</v-toolbar-title>
   <v-spacer></v-spacer>
   <v-toolbar-items>
@@ -15,15 +13,17 @@
     <v-btn color="white" text rounded class="my-auto" to="servicios">Servicios</v-btn>
     <v-btn color="white" text rounded class="my-auto" to="login">Iniciar Sesión</v-btn>
   </v-toolbar-items>
+
   </v-toolbar>
+
     <v-main>
       <router-view/>
     </v-main>
+    
     <v-footer
       color=#364c63
       class="mt-10"
       padless
-
     >
       <v-row
         justify="center"
@@ -85,6 +85,6 @@ export default {
   }),
 };
 </script>
-<style scoped>
 
+<style scoped>
 </style>
