@@ -1,175 +1,129 @@
 <template>
   <div>
-  <hello-world />
-  <servicios-comp />
-  <v-container class="blue-grey lighten-3 my-20 rounded">
-  <v-row style="text-align:center;">
-    <h2>¿Por qué estar en reactivate?</h2>
- </v-row>
-  <v-row>
-   <v-col
-    align="center"
-    justify="center"    
-    cols="3"
-   >
-    <v-img
-      max-height="100"
-      max-width="100"     
-      src="https://i.ibb.co/thFF92c/reactivate-seccion-04-icono-01-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-    cols="3"   
-   >
-     <p>Contar con un perfil profesional para tu negocio</p>
-   </v-col>
-   <v-col
-    align="center"
-    justify="center"      
-    cols="3"   
-   >
-     <v-img
-      max-height="100"
-      max-width="100"       
-      src="https://i.ibb.co/8gHWnn2/reactivate-seccion-04-icono-02-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-   cols="3"   
-   >
-     <p>Aplicar a ofertas de trabajos disponibles</p>
-   </v-col>   
- </v-row>
-  <v-row>
-   <v-col
-    align="center"
-    justify="center"   
-   cols="3"
-   >
-     <v-img
-      max-height="100"
-      max-width="100"       
-      src="https://i.ibb.co/BcVXt2S/reactivate-seccion-04-icono-03-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-   cols="3" 
-   >
-     <p>Aumentar tu presencia y reputación en línea</p>
-   </v-col>
-   <v-col
-    align="center"
-    justify="center" 
-    col2="3"  
-   >
-     <v-img
-      src="https://i.ibb.co/w47zkQZ/reactivate-seccion-04-icono-04-svg.png"
-      max-height="100"
-      max-width="100"       
-     ></v-img>
-   </v-col>      
-   <v-col
-   Cols="3"
-   >
-     <p>Optimizar la visibilidad de tu negocio en línea</p>
-   </v-col>
- </v-row>
- <v-row class="my-20"></v-row>
- </v-container>
- <v-container class="my-20 rounded">
-   <p class="display-1">Contáctanos</p>
-   <p class="mb-0">¿Quieres saber más de Reactívate?</p>
-   <p class="mb-6">Contáctanos para brindarte toda la información que necesites</p>
+    <hello-world />
+    <servicios-comp />
+    <v-container class="blue-grey lighten-3 my-20 rounded">
+      <v-row style="text-align: center">
+        <h2>¿Por qué estar en reactivate?</h2>
+      </v-row>
+      <v-row>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/thFF92c/reactivate-seccion-04-icono-01-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <p>Contar con un perfil profesional para tu negocio</p>
+        </v-col>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/8gHWnn2/reactivate-seccion-04-icono-02-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <p>Aplicar a ofertas de trabajos disponibles</p>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/BcVXt2S/reactivate-seccion-04-icono-03-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <p>Aumentar tu presencia y reputación en línea</p>
+        </v-col>
+        <v-col align="center" justify="center" col2="3">
+          <v-img
+            src="https://i.ibb.co/w47zkQZ/reactivate-seccion-04-icono-04-svg.png"
+            max-height="100"
+            max-width="100"
+          ></v-img>
+        </v-col>
+        <v-col Cols="3">
+          <p>Optimizar la visibilidad de tu negocio en línea</p>
+        </v-col>
+      </v-row>
+      <v-row class="my-20"></v-row>
+    </v-container>
+    <v-container class="my-20 rounded">
+      <p class="display-1">Contáctanos</p>
+      <p class="mb-0">¿Quieres saber más de Reactívate?</p>
+      <p class="mb-6">
+        Contáctanos para brindarte toda la información que necesites
+      </p>
 
-  <v-row>
-   <v-col
-    align="center"
-    justify="center"    
-    cols="3"
-   >
-    <v-img
-      max-height="100"
-      max-width="100"     
-      src="https://i.ibb.co/fQw4v1S/reactivate-seccion-05-icono-01-wathsapp-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-    cols="3"   
-   >
-     <h3>+57 (999) 999 9999</h3>
-   </v-col>
-   <v-col
-    align="center"
-    justify="center"      
-    cols="3"   
-   >
-     <v-img
-      max-height="100"
-      max-width="100"       
-      src="https://i.ibb.co/kmVJfHP/reactivate-seccion-05-icono-03-linkedin-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-   cols="3"   
-   >
-     <h3>Encuéntranos en</h3>
-   </v-col>   
- </v-row>
-  <v-row>
-   <v-col
-    align="center"
-    justify="center"   
-   cols="3"
-   >
-     <v-img
-      max-height="100"
-      max-width="100"       
-      src="https://i.ibb.co/f1Yh52j/reactivate-seccion-05-icono-02-email-svg.png"
-     ></v-img>
-   </v-col>
-   <v-col
-   cols="3" 
-   >
-     <h3>reactivateco@outlook.com</h3>
-   </v-col>
-   <v-col
-    align="center"
-    justify="center" 
-    col2="3"  
-   >
-     <v-img
-      src="https://i.ibb.co/QrdbrY5/reactivate-seccion-05-icono-04-instagram-svg.png"
-      max-height="100"
-      max-width="100"       
-     ></v-img>
-   </v-col>      
-   <v-col
-   Cols="3"
-   >
-     <h3></h3>
-   </v-col>
- </v-row>
- <v-row class="my-20"></v-row>
- </v-container>
- </div>
+      <v-row>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/fQw4v1S/reactivate-seccion-05-icono-01-wathsapp-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <h3>+57 (999) 999 9999</h3>
+        </v-col>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/kmVJfHP/reactivate-seccion-05-icono-03-linkedin-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <h3>Encuéntranos en</h3>
+        </v-col>
+      </v-row>
+      <v-row>
+        <v-col align="center" justify="center" cols="3">
+          <v-img
+            max-height="100"
+            max-width="100"
+            src="https://i.ibb.co/f1Yh52j/reactivate-seccion-05-icono-02-email-svg.png"
+          ></v-img>
+        </v-col>
+        <v-col cols="3">
+          <h3>reactivateco@outlook.com</h3>
+        </v-col>
+        <v-col align="center" justify="center" col2="3">
+          <v-img
+            src="https://i.ibb.co/QrdbrY5/reactivate-seccion-05-icono-04-instagram-svg.png"
+            max-height="100"
+            max-width="100"
+          ></v-img>
+        </v-col>
+        <v-col Cols="3">
+          <h3></h3>
+        </v-col>
+      </v-row>
+      <v-row class="my-20"></v-row>
+    </v-container>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
-  import ServiciosComp from '../components/ServiciosComp'
+import HelloWorld from "../components/HelloWorld";
+import ServiciosComp from "../components/ServiciosComp";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-      ServiciosComp
-    },
-  }
+  components: {
+    HelloWorld,
+    ServiciosComp,
+  },
+};
 </script>
 
 <style scoped>
 p {
-  text-align:center;
+  text-align: center;
 }
 </style>
