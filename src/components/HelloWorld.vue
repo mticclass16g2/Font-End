@@ -15,7 +15,12 @@
               <v-btn rounded color="#364c63" dark class="mb-6" @click="verlogin"
                 >Iniciar Sesión</v-btn
               >
-              <v-btn rounded color="success" dark class="mb-6" @click="verlogin"
+              <v-btn
+                rounded
+                color="success"
+                dark
+                class="mb-6"
+                @click="crearperfil"
                 >Únete y crea tu perfil</v-btn
               >
             </v-row>
@@ -47,9 +52,11 @@
             !Registrate y ofrece tus servicios como experto profesional hoy
             mismo!
           </h2>
-          <v-btn rounded color="#364c63" dark class="mb-6"
-            >Crear mi perfil profesional</v-btn
-          >
+
+          <v-btn rounded color="#364c63" dark class="mb-6" @click="crearperfil">
+            Crear mi perfil profesional
+          </v-btn>
+
           <h2 class="font-weight-bold mb-3">
             !Encuentra aquí el profesional que estas necesitando!
           </h2>
@@ -98,6 +105,10 @@ export default {
     verlogin() {
       this.$router.push("login");
       // this.$router.push({name: 'login', path: '/login'})
+    },
+    crearperfil() {
+      this.$router.push("suscripciones");
+      // this.$router.push({name: 'suscripciones', path: '/suscripciones'})
     },
   },
 };

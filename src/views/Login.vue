@@ -38,7 +38,9 @@
         <v-card-title> ¿No tienes una cuenta? Registrate ahora </v-card-title>
 
         <v-card-actions>
-          <v-btn rounded color="success">Registrarse</v-btn>
+          <v-btn rounded color="success" dark class="mb-6" @click="crearperfil"
+            >Registrarme</v-btn
+          >
         </v-card-actions>
       </v-card>
     </v-content>
@@ -51,6 +53,12 @@ export default {
     return {
       showPassword: false,
     };
+  },
+  methods: {
+    crearperfil() {
+      this.$router.push("suscripciones");
+      // this.$router.push({name: 'suscripciones', path: '/suscripciones'})
+    },
   },
 };
 </script>
