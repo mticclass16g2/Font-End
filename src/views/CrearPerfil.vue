@@ -9,29 +9,28 @@
         ></v-img>
         <v-card-title class="justify-center"> Crear Mi Perfil </v-card-title>
         <v-card-text>
-          <v-text-field
-            label="Correo electrónico"
-          />
+          <v-text-field label="Correo electrónico" rounded outlined dense />
 
-          <v-text-field
-            label="Contraseña:"
-          />
+          <v-text-field label="Contraseña:" rounded outlined dense />
 
           <v-text-field
             label="Confirma tu contraseña:"
+            rounded
+            outlined
+            dense
           />
 
-          <v-text-field label="Documento identidad:" />
+          <v-text-field label="Documento identidad:" rounded outlined dense />
 
-          <v-text-field label="Tipo documento:" />
+          <v-text-field label="Tipo documento:" rounded outlined dense />
 
-          <v-text-field label="Nombre completo:" />
+          <v-text-field label="Nombre completo:" rounded outlined dense />
 
-          <v-text-field label="Apellido completo:" />
+          <v-text-field label="Apellido completo:" rounded outlined dense />
 
-          <v-text-field label="Teléfono móvil:" />
+          <v-text-field label="Teléfono móvil:" rounded outlined dense />
 
-          <v-text-field label="Ciudad de residencia:" />
+          <v-text-field label="Ciudad de residencia:" rounded outlined dense />
 
           Acepto los términos, condiciones y políticas de privacidad de este
           sitio.

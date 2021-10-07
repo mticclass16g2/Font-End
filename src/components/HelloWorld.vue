@@ -61,7 +61,7 @@
             !Encuentra aquí el profesional que estas necesitando!
           </h2>
           <v-text-field
-            label="escribe tus busquedas"
+            label="Escribe aquí tu busqueda..."
             rounded
             color="blue lighten-4"
             class="mx-auto my-0"
@@ -74,17 +74,6 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col class="mb-4" cols="12">
-          <p class="subheading font-weight-regular">
-            <br />
-            <a
-              href="https://drive.google.com/drive/folders/1PyujRrTVDCl_JHfyghcif5svhz3y42YE"
-              target="_blank"
-            >
-              Somos el grupo 16 equipo de desarrollo No 2</a
-            >
-          </p>
-        </v-col>
         <v-col class="mb-5" cols="12">
           <h2 class="display-2 font-weight-bold mb-3">
             Categorías de Expertos
